@@ -1,0 +1,35 @@
+# Secrets — never commit these
+*.env
+.env
+.env.*
+*.secret
+secrets.yaml
+secrets.yml
+*-secret.yaml
+*-secret.yml
+kubeconfig
+kubeconfig.*
+*.kubeconfig
+
+# Argo CD app manifests with real repo URLs (keep templates, ignore real ones)
+argocd-app.yaml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp / backup files
+*.bak
+*.tmp
+*.disabled
+
+# Helm
+charts/
+*.tgz
